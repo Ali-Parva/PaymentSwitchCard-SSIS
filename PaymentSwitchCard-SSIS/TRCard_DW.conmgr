@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.TRCard_DW"
+  DTS:DTSID="{B9043631-A954-44B3-B5EF-45F9BF8071B8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=TRCard_DW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-PaymentSwitchCard-SSIS-{B9043631-A954-44B3-B5EF-45F9BF8071B8}LocalHost.TRCard_DW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
